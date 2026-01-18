@@ -60,7 +60,7 @@ public class FileHandler {
 
             try (var rs = ps.executeQuery()) {
                 rs.next();
-                return rs.getLong("id"); // 🎯 ВОТ ОН
+                return rs.getLong("id"); 
             }
 
         } catch (SQLException e) {
