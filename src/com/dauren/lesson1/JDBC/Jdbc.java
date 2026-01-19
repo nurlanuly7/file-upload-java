@@ -12,10 +12,7 @@ public class Jdbc {
         try (Connection conn = DriverManager.getConnection(url, user, password)) {
 
             Statement stmt = conn.createStatement();
-//
-//            while (rs.next()) {
-//                System.out.println(rs.getString("name"));
-//            }
+
 
         } catch (SQLException e) {
             e.printStackTrace();
